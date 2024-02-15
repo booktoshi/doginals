@@ -53,7 +53,7 @@ TESTNET=false
 FEE_PER_KB=30000000
 ```
 
-You can get the current fee per kb from [here](https://blockchair.com/).
+You can get the current fee per kb from [here](https://mempool.jhoenicke.de/#DOGE,8h,weight).
 
 ### Using QT
 Settings>Options Wallets Enable coin controll.
