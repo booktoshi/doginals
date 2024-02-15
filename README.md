@@ -4,17 +4,15 @@ A minter and protocol for inscriptions on Dogecoin.
 
 ## ⚠️⚠️⚠️ Important ⚠️⚠️⚠️
 
-Use this wallet for inscribing only! Always inscribe from this wallet to a different address, e.g. one you created with Woof Wallet. This wallet is not meant for storing funds or inscriptions.
+Use this wallet for inscribing only! Always inscribe from this wallet to a different address, e.g. one you created with Ordinals Wallet. This wallet is not meant for storing funds or inscriptions.
 
 ## Prerequisites
 
-To use this, you'll need to use your console/terminal and install Node.js on your computer. So please ensure, that you have your 
+To use this, you'll need to use your console/terminal use Power Shell with Windows, install Node.js on your computer.
 
 ### Install NodeJS
 
 Please head over to [https://nodejs.org/en/download](https://nodejs.org/en/download) and follow the installation instructions.
-
-## Setup and install
 
 ## Install Dogeoin Core 
 
@@ -23,14 +21,19 @@ Dogecoin Core version v1.14.6
 Update you dogcoin.conf file example.
 
 ```
-rpcuser=rpc_user
-rpcpassword=rpc_password
+rpcuser=<username>
+rpcpassword=<password>
 rpcport=22555
 txindex=1
 rpcallowip=127.0.0.1
 server=1
 ```
+## Install Dogenals
 
+Download the repo by clicking <>code in the uper right of the GitHub and clicking Download ZIP                
+Extract the root folder to your rooot dir.
+
+Using the terimnal install. 
 ```
 cd <path to your dogeinals folder>
 npm install
@@ -53,13 +56,19 @@ FEE_PER_KB=500000000
 
 You can get the current fee per kb from [here](https://blockchair.com/).
 
-## Funding
+### Using QT
+Settings>Options Wallets Enable coin controll.
 
-Generate a new `.wallet.json` file:
-
+Create a new wallet from shell.
 ```
 node . wallet new
 ```
+After creating your doginals wallet copy your private key from your doginals_folder/.wallet
+File>Import Private Key
+Paste private key and name wallet.
+Fund wallet.
+
+## Funding
 
 Then send DOGE to the address displayed. Once sent, sync your wallet:
 
