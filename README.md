@@ -14,31 +14,25 @@ To use this, you'll need to use your console/terminal and install Node.js on you
 
 Please head over to [https://nodejs.org/en/download](https://nodejs.org/en/download) and follow the installation instructions.
 
-### Launch your own RPC 
+## Setup and install
 
-In order to inscribe, you will need to have access to a Dodgecoin RPC. For example: [https://getblock.io/](https://getblock.io/) provides a service to get access to an RPC.
-You will need that for the configuration.
+## Install Dogeoin Core 
 
-## Setup
-
-### git clone and install
-
-Install by git clone (requires git and node on your computer) 
-
-#### git clone
-```
-git clone https://github.com/verydogelabs/inscription-wallet.git
-```
-
-**or** 
-
-download this [zip file](https://github.com/verydogelabs/inscription-wallet/archive/refs/heads/main.zip) and upack in a directory.
-
-Now open your terminal and change to the directory the sources are installed.
-####
+Dogecoin Core version v1.14.6
+## ⚠️⚠️⚠️ Important ⚠️⚠️⚠️
+Update you dogcoin.conf file example.
 
 ```
-cd <path to your download / installation>
+rpcuser=rpc_user
+rpcpassword=rpc_password
+rpcport=22555
+txindex=1
+rpcallowip=127.0.0.1
+server=1
+```
+
+```
+cd <path to your dogeinals folder>
 npm install
 ``` 
 
