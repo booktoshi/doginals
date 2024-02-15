@@ -63,9 +63,12 @@ Create a new wallet from shell.
 ```
 node . wallet new
 ```
-After creating your doginals wallet copy your private key from your doginals_folder/.wallet
+After creating your doginals wallet copy your private key from your doginals_folder/.wallet.
+
 File>Import Private Key
+
 Paste private key and name wallet.
+
 Fund wallet.
 
 ## Funding
