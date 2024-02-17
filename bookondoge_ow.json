@@ -1,0 +1,430 @@
+[
+    {
+      "id": "87deb7bf70fc55aedd58a13d675f553adc118a657595e13c640409b70013066di0",
+      "meta": {
+        "name": "BookOnDoge... #1",
+        "attributes": [
+            {
+                "trait_type": "Moonboi589",
+                "value": "Avax"
+              },
+              {
+                "trait_type": "GoldChain",
+                "value": "Doge"
+              },
+              {
+                "trait_type": "Background",
+                "value": "WhiteRabbit"
+              }
+        ]
+      }
+    },
+    {
+      "id": "ca2795ca7dbab3b517c16d4979f7b0789f784e28aadeead666a24dfe8afe4f43i0",
+      "meta": {
+        "name": "BookOnDoge... #2",
+        "attributes": [
+            {
+                "trait_type": "Moonboi589",
+                "value": "Solana"
+              },
+              {
+                "trait_type": "GoldChain",
+                "value": "Solana"
+              },
+              {
+                  "trait_type": "Background",
+                  "value": "WhiteRabbit"
+              }
+        ]
+      }
+    },
+    {
+      "id": "c5f74f47f57ede2b34f646d44d71d70807fa1d39babb3f7411825818b67d5c49i0",
+      "meta": {
+        "name": "BookOnDoge... #3",
+        "attributes": [
+            {
+                "trait_type": "MoonboiBook589",
+                "value": "XRP"
+              },
+              {
+                "trait_type": "GoldChain",
+                "value": "Book"
+              },
+              {
+                  "trait_type": "Background",
+                  "value": "@8bitSats"
+              }
+        ]
+      }
+    },
+    {
+      "id": "47233657314abc97ddd74490c6b66d87a12f492a50105b93ff31cf6cd908fd8bi0",
+      "meta": {
+        "name": "BookOnDoge... #4",
+        "attributes": [
+            {
+                "trait_type": "Moonboi589",
+                "value": "Doge"
+              },
+              {
+                "trait_type": "GoldChain",
+                "value": "Doge"
+              },
+              {
+                "trait_type": "Background",
+              "value": "Psychedelic Moon"
+              }
+        ]
+      }
+    },
+    {
+      "id": "a18a63e5ec6fccd487355c4d9fcac22dadcf0658c4f70bc8cc39149e928d7e43i0",
+      "meta": {
+        "name": "BookOnDoge... #5",
+        "attributes": [
+            {
+                "trait_type": "Moonboi589",
+                "value": "Doge"
+              },
+              {
+                "trait_type": "GoldChain",
+                "value": "Doge"
+              },
+              {
+                  "trait_type": "Background",
+                  "value": "Church of Doge"
+              },
+              {
+                  "trait_type": "ShinuEars",
+                  "value": "Biege"
+              },
+              {
+                  "trait_type": "Featuring",
+                  "value": "DRX"
+              }
+        ]
+      }
+    },
+    {
+      "id": "d80cd4d75cdf274f9606ad4083efeaba05e7c995136ce460eef27355dead2538i0",
+      "meta": {
+        "name": "BookOnDoge... #6",
+        "attributes": [
+            {
+                "trait_type": "Moonboi589",
+                "value": "Doge"
+              },
+              {
+                "trait_type": "GoldChain",
+                "value": "Doge"
+              },
+              {
+                "trait_type": "Background",
+                "value": "Church of Doge"
+             },
+             {
+               "trait_type": "ShinuEars2",
+               "value": "Biege"
+             },
+            {
+               "trait_type": "Featuring",
+               "value": "DRX"
+            }
+        ]
+      }
+    },
+    {
+      "id": "79a83942382f03276ed2bd73b16f6ed626fcd47cd7a817d566b128757b1db721i0",
+      "meta": {
+        "name": "BookOnDoge... #7",
+        "attributes": [
+            {
+                "trait_type": "BookShinu",
+                "value": "Doge"
+              },
+              {
+                "trait_type": "Background",
+                "value": "OfficeBooks"
+              },
+              {
+                 "trait_type": "Featuring",
+                 "value": "DRX"
+              }
+        ]
+      }
+    },
+    {
+      "id": "914e3607cefe80b39eb849033069b0da0c6c2cd7b94b78f6c334727cb68f8453i0",
+      "meta": {
+        "name": "BookOnDoge... #8",
+        "attributes": [
+            {
+                "trait_type": "BookShinu",
+                "value": "Doge"
+              },
+              {
+                "trait_type": "Background",
+                "value": "OfficeWindow"
+              },
+              {
+                  "trait_type": "Featuring",
+                  "value": "DRX"
+              }
+        ]
+      }
+    },
+    {
+      "id": "dcb34efd7c16a0523202515503a7ab5f0d1e3b9e2fe6307ae2bb7044a26ab0dbi0",
+      "meta": {
+        "name": "BookOnDoge... #9",
+        "attributes": [
+            {
+                "trait_type": "9BitMoonboiBook589",
+                "value": "XRP"
+              },
+              {
+                "trait_type": "Background",
+                "value": "BlixMo3"
+              },
+              {
+                  "trait_type": "Featuring",
+                  "value": "Block9 Its a Music Thing"
+              }
+        ]
+      }
+    },
+    {
+      "id": "fe417f0be6fe3834d9fc3729aec741a3c4d9bcb94356f18298958bd9e841bf0ci0",
+      "meta": {
+        "name": "BookOnDoge... #10",
+        "attributes": [
+            {
+                "trait_type": "BookXRP",
+                "value": "SuitFitted"
+              },
+              {
+                "trait_type": "Background",
+                "value": "Black"
+              },
+              {
+                  "trait_type": "Featuring",
+                  "value": "DRX"
+              },
+              {
+                  "trait_type": "Moon",
+                  "value": "Red"
+              },
+              {
+                  "trait_type": "Doggos",
+                  "value": "DragonDoggo"
+              }
+        ]
+      }
+    },
+    {
+      "id": "0a7f0674e8600440db78c5def786fffa2e08887b032786fa5f056dbc076975dai0",
+      "meta": {
+        "name": "BookOnDoge... #11",
+        "attributes": [
+            {
+                "trait_type": "9BitMoonboiBook589",
+                "value": "XRP"
+              },
+              {
+                "trait_type": "Background",
+                "value": "Black"
+              },
+              {
+                  "trait_type": "Featuring",
+                  "value": "MyDoge"
+              }
+        ]
+      }
+    },
+    {
+      "id": "e2d7c46ca76e93bca1dc23c5cfde813163e67157e469455301be7a52222730eci0",
+      "meta": {
+        "name": "BookOnDoge... #12",
+        "attributes": [
+            {
+                "trait_type": "Doggos",
+                "value": "MyDogeDoggos"
+              },
+              {
+                "trait_type": "Background",
+                "value": "NFL Superbowl 58"
+              },
+              {
+                  "trait_type": "Featuring",
+                  "value": "MyDoge"
+              }
+        ]
+      }
+    },
+    {
+      "id": "bbbf6435ad80fcd8d3fee2fa24054ada77df5797524c521bbcf03d917bef3943i0",
+      "meta": {
+        "name": "BookOnDoge... #13",
+        "attributes": [
+            {
+                "trait_type": "Doggos",
+                "value": "BlackDoggo x BabyDoggo"
+              },
+              {
+                "trait_type": "Background",
+                "value": "NFL Superbowl 58"
+              },
+              {
+                  "trait_type": "Featuring",
+                  "value": "MyDoge"
+              }
+        ]
+      }
+    },
+    {
+      "id": "6dca65677cbd176b38fb5f57a0b567696974b5e92a69836b9513bc97d39afa56i0",
+      "meta": {
+        "name": "BookOnDoge... #14",
+        "attributes": [
+            {
+                "trait_type": "Doggos",
+                "value": "BlackDoggo"
+              },
+              {
+                "trait_type": "Background",
+                "value": "NYC"
+              },
+              {
+                  "trait_type": "Featuring",
+                  "value": "nodeShiksha"
+              }
+        ]
+      }
+    },
+    {
+      "id": "1f05e6f8948e3e6780429f5015a053ef705d8b72d1e5dd27aef0d8479930c6a2i0",
+      "meta": {
+        "name": "BookOnDoge... #15",
+        "attributes": [
+            {
+                "trait_type": "9BitMoonboi589",
+                "value": "Doge"
+              },
+              {
+                "trait_type": "Background",
+                "value": "Sunset"
+              },
+              {
+                  "trait_type": "GoldChain",
+                  "value": "Doge"
+              }
+        ]
+      }
+    },
+    {
+      "id": "eac844f86dabcc2e2a22d33620be0ad26e8bc1856c4d46e95c35cf39b33790d7i0",
+      "meta": {
+        "name": "BookOnDoge... #16",
+        "attributes": [
+            {
+                "trait_type": "MoonboiNodeRunner",
+                "value": "OD NodeRunner #66"
+              }
+        ]
+      }
+    },
+    {
+      "id": "4345109d12324522e0e9c171668324a16932b0b170d1e54450718c87dd15c578i0",
+      "meta": {
+        "name": "BookOnDoge... #17",
+        "attributes": [
+            {
+                "trait_type": "DoOnlyGooDEveryday",
+                "value": "Doge"
+              }
+        ]
+      }
+    },
+    {
+      "id": "b9d6e5b51f8ea26a83470334eede5c4cf6fb1466a5b71fb8a5ddb48a2374f87ei0",
+      "meta": {
+        "name": "BookOnDoge... #18",
+        "attributes": [
+            {
+                "trait_type": "BookShinu",
+                "value": "Doge"
+              },
+              {
+                "trait_type": "Background",
+                "value": "OfficeBooks"
+              },
+              {
+                "trait_type": "Featuring",
+                "value": "DRX"
+            }
+        ]
+      }
+    },
+    {
+      "id": "bedd118d7823491a01445384cf3be912a2ff903597225db4c63152a921e30a04i0",
+      "meta": {
+        "name": "BookOnDoge... #19",
+        "attributes": [
+            {
+                "trait_type": "MoonboiMilitia",
+                "value": "RedBlackHelmet"
+              },
+              {
+                "trait_type": "Background",
+                "value": "Black"
+              },
+              {
+                "trait_type": "Featuring",
+                "value": "MoonboiChain MoonBlocking"
+            }
+        ]
+      }
+    },
+    {
+      "id": "bedd118d7823491a01445384cf3be912a2ff903597225db4c63152a921e30a04i0",
+      "meta": {
+        "name": "BookOnDoge... #20",
+        "attributes": [
+            {
+                "trait_type": "Moonboi589",
+                "value": "Avax"
+              },
+              {
+                "trait_type": "Background",
+                "value": "Black"
+              },
+              {
+                "trait_type": "GoldChain",
+                "value": "Avax"
+            }
+        ]
+      }
+    },
+    {
+      "id": "bedd118d7823491a01445384cf3be912a2ff903597225db4c63152a921e30a04i0",
+      "meta": {
+        "name": "BookOnDoge... #21",
+        "attributes": [
+            {
+                "trait_type": "Moonboi589",
+                "value": "Robot"
+              },
+              {
+                "trait_type": "Background",
+                "value": "9bitMoonboiBook x Moon"
+              },
+              {
+                "trait_type": "Doge",
+                "value": "Coin"
+            }
+        ]
+      }
+    }
+  ]
