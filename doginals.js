@@ -141,19 +141,33 @@ function walletNew() {
 
 
 async function walletSync() {
-    if (process.env.TESTNET == 'true') throw new Error('no testnet api')
-
     let wallet = JSON.parse(fs.readFileSync(WALLET_PATH))
 
-    console.log('syncing utxos with dogechain.info api')
+    console.log('syncing utxos with local Dogecoin node via RPC')
 
-    let response = await axios.get(`https://dogechain.info/api/v1/address/unspent/${wallet.address}`)
-    wallet.utxos = response.data.unspent_outputs.map(output => {
+    const body = {
+        jsonrpc: "1.0",
+        id: "walletsync",
+        method: "listunspent",
+        params: [0, 9999999, [wallet.address]]  // [minconf, maxconf, [addresses]]
+    }
+
+    const options = {
+        auth: {
+            username: process.env.NODE_RPC_USER,
+            password: process.env.NODE_RPC_PASS
+        }
+    }
+
+    let response = await axios.post(process.env.NODE_RPC_URL, body, options)
+    let utxos = response.data.result
+
+    wallet.utxos = utxos.map(utxo => {
         return {
-            txid: output.tx_hash,
-            vout: output.tx_output_n,
-            script: output.script,
-            satoshis: output.value
+            txid: utxo.txid,
+            vout: utxo.vout,
+            script: utxo.scriptPubKey,
+            satoshis: utxo.amount * 1e8 // Convert from DOGE to Satoshis
         }
     })
 
@@ -163,6 +177,7 @@ async function walletSync() {
 
     console.log('balance', balance)
 }
+
 
 
 function walletBalance() {
@@ -532,11 +547,27 @@ function chunkToNumber(chunk) {
 
 
 async function extract(txid) {
-    let resp = await axios.get(`https://dogechain.info/api/v1/transaction/${txid}`)
-    let transaction = resp.data.transaction
-    let script = Script.fromHex(transaction.inputs[0].scriptSig.hex)
-    let chunks = script.chunks
+    const body = {
+        jsonrpc: "1.0",
+        id: "extract",
+        method: "getrawtransaction",
+        params: [txid, true] // [txid, verbose=true]
+    }
 
+    const options = {
+        auth: {
+            username: process.env.NODE_RPC_USER,
+            password: process.env.NODE_RPC_PASS
+        }
+    }
+
+    let response = await axios.post(process.env.NODE_RPC_URL, body, options)
+    let transaction = response.data.result
+
+    let inputs = transaction.vin
+    let scriptHex = inputs[0].scriptSig.hex
+    let script = Script.fromHex(scriptHex)
+    let chunks = script.chunks
 
     let prefix = chunks.shift().buf.toString('utf-8')
     if (prefix != 'ord') {
@@ -547,7 +578,6 @@ async function extract(txid) {
 
     let contentType = chunks.shift().buf.toString('utf-8')
 
-
     let data = Buffer.alloc(0)
     let remaining = pieces
 
@@ -555,10 +585,12 @@ async function extract(txid) {
         let n = chunkToNumber(chunks.shift())
 
         if (n !== remaining - 1) {
-            txid = transaction.outputs[0].spent.hash
-            resp = await axios.get(`https://dogechain.info/api/v1/transaction/${txid}`)
-            transaction = resp.data.transaction
-            script = Script.fromHex(transaction.inputs[0].scriptSig.hex)
+            txid = transaction.vout[0].spent.hash
+            response = await axios.post(process.env.NODE_RPC_URL, body, options)
+            transaction = response.data.result
+            inputs = transaction.vin
+            scriptHex = inputs[0].scriptSig.hex
+            script = Script.fromHex(scriptHex)
             chunks = script.chunks
             continue
         }
