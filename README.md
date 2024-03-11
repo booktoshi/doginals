@@ -43,7 +43,7 @@ After all dependencies are solved, you can configure the environment:
 
 ### Configure environment
 
-Copy a `.env.example` to `.env` and add your node information:
+`.env` and add your node information:
 
 ```
 NODE_RPC_URL=http://127.0.0.1:22555
@@ -55,6 +55,14 @@ FEE_PER_KB=30000000
 
 You can get the current fee per kb from [here](https://mempool.jhoenicke.de/#DOGE,8h,weight).
 
+### Using CLI
+
+Import the private key to core ~/dogecoin-1.14.7/bin/ directory and you want to run the dogecoin-cli
+run
+./dogecoin-cli 
+```
+importprivkey <your_private_key> <optional_label> false
+```
 ### Using QT
 Settings>Options Wallets Enable coin controll.
 
