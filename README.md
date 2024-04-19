@@ -28,7 +28,7 @@ txindex=1
 rpcallowip=127.0.0.1
 server=1
 ```
-## Install Dogenals
+## Install Doginals
 
 Download the repo by clicking <>code in the uper right of the GitHub and clicking Download ZIP                
 Extract the root folder to your rooot dir.
