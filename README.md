@@ -14,11 +14,11 @@ To use this, you'll need to use your console/terminal use Power Shell with Windo
 
 Please head over to [https://nodejs.org/en/download](https://nodejs.org/en/download) and follow the installation instructions.
 
-## Install Dogeoin Core 
+## Install Dogecqoin Core 
 
 Dogecoin Core version v1.14.6
 ## ⚠️⚠️⚠️ Important ⚠️⚠️⚠️
-Update you dogcoin.conf file example.
+Update you dogecoin.conf file example.
 
 ```
 rpcuser=<username>
@@ -133,7 +133,7 @@ node . drc-20 mint <address> <ticker> <amount>
 Examples: 
 
 ```
-node . drc-20 mint DSV12KPb8m5b6YtfmqY89K6YqvdVwMYDPn dogi 1000
+node . drc-20 mint D9pqzxiiUke5eodEzMmxZAxpFcbvwuM4Hg dogi 1000
 ```
 
 ## Viewing
