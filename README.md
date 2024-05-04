@@ -14,7 +14,7 @@ To use this, you'll need to use your console/terminal use Power Shell with Windo
 
 Please head over to [https://nodejs.org/en/download](https://nodejs.org/en/download) and follow the installation instructions.
 
-## Install Dogecqoin Core 
+## Install Dogecoin Core 
 
 Dogecoin Core version v1.14.6
 ## ⚠️⚠️⚠️ Important ⚠️⚠️⚠️
