@@ -246,5 +246,7 @@ If you'd like to contribute or donate to our projects, please donate in Dogecoin
 
 **"handle": "BillyBitcoins" "at": "@BillyBitcoins" "dogecoin_address": "DQAWs4LQKY3zVmorsLHDUCV7LE5ox6rho6"**
 
+**"handle": "Booktoshi" "at": "@booktoshi" "dogecoin_address": "D9Ue4zayx5NP7sTSBMM9uwuzqpHv4HnkaN"**
+
 # License
 This project is licensed under the MIT License.
