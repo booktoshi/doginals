@@ -14,11 +14,11 @@ To use this, you'll need to use your console/terminal use Power Shell with Windo
 
 Please head over to [https://nodejs.org/en/download](https://nodejs.org/en/download) and follow the installation instructions.
 
-## Install Dogeoin Core 
+## Install Dogecoin Core 
 
 Dogecoin Core version v1.14.6
 ## ⚠️⚠️⚠️ Important ⚠️⚠️⚠️
-Update you dogcoin.conf file example.
+Update you dogecoin.conf file example.
 
 ```
 rpcuser=<username>
@@ -28,7 +28,7 @@ txindex=1
 rpcallowip=127.0.0.1
 server=1
 ```
-## Install Dogenals
+## Install Doginals
 
 Download the repo by clicking <>code in the uper right of the GitHub and clicking Download ZIP                
 Extract the root folder to your rooot dir.
@@ -133,7 +133,7 @@ node . drc-20 mint <address> <ticker> <amount>
 Examples: 
 
 ```
-node . drc-20 mint DSV12KPb8m5b6YtfmqY89K6YqvdVwMYDPn dogi 1000
+node . drc-20 mint D9pqzxiiUke5eodEzMmxZAxpFcbvwuM4Hg dogi 1000
 ```
 
 ## Viewing
@@ -233,3 +233,20 @@ TESTNET=false
 
 The miner fee is too low. You can increase it up by putting FEE_PER_KB=300000000 in your .env file or just wait it out. The default is 100000000 but spikes up when demand is high.
 
+# Contributing
+
+If you'd like to contribute or donate to our projects, please donate in Dogecoin. For contributors its as easy as opening issues, and creating pull requests
+
+
+***If You would like to support with Donations, Send all Dogecoin tothe following Contributors:***
+
+**"handle": "Big Chief" "at": "@MartinSeeger2" "dogecoin_address": "DCHxodkzaKCLjmnG4LP8uH6NKynmntmCNz"**
+
+**"handle": "Great Ape" "at": "@Greatape42069E" "dogecoin_address": "DBpLvNcR1Zj8B6dKJp4n3XEAT4FmRxbnJb"**
+
+**"handle": "BillyBitcoins" "at": "@BillyBitcoins" "dogecoin_address": "DQAWs4LQKY3zVmorsLHDUCV7LE5ox6rho6"**
+
+**"handle": "Booktoshi" "at": "@booktoshi" "dogecoin_address": "D9Ue4zayx5NP7sTSBMM9uwuzqpHv4HnkaN"**
+
+# License
+This project is licensed under the MIT License.
