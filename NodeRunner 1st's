@@ -19,6 +19,12 @@
             "dogecoin_address": "DCHxodkzaKCLjmnG4LP8uH6NKynmntmCNz"
         },
         {
+            "handle": "Great Ape",
+            "at": "@Greatape42069E",
+            "note": "NR274-289",
+            "dogecoin_address": "DBpLvNcR1Zj8B6dKJp4n3XEAT4FmRxbnJb"
+        },
+        {
             "handle": "Unfudable",
             "at": "@unfudable22",
             "note": "NR66-81 CwrcAD336",
@@ -77,12 +83,6 @@
             "at": "@0rdlibrary",
             "note": "NR242-257",
             "dogecoin_address": "D5ajNi1dsbW3zehjv1wx9J6dseEABrT7zA"
-        },
-        {
-            "handle": "Great Ape",
-            "at": "@Greatape42069E",
-            "note": "NR274-289",
-            "dogecoin_address": "DBpLvNcR1Zj8B6dKJp4n3XEAT4FmRxbnJb"
         },
         {
             "handle": "NakedNick",
