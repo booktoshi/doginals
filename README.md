@@ -32,7 +32,7 @@ cd ~./.dogecoin/
 ## Update you dogecoin.conf file example.
 
 ```
-nano .env
+nano dogecoin.conf
 ```
 
 ## Copy and paste below RPC settings
