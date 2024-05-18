@@ -272,10 +272,6 @@ If you'd like to contribute or donate to our projects, please donate in Dogecoin
 
 **"handle": "Booktoshi" "at": "@booktoshi" "dogecoin_address": "D9Ue4zayx5NP7sTSBMM9uwuzqpHv4HnkaN"**
 
-## Included Utility Scripts
-  1.  https://github.com/martinseeger2002/dogcoin_ordinal_auto_inscriber
-  2.  https://github.com/martinseeger2002/OW_API_SnapShot
-  3.  
 
 # License
 This project is licensed under the MIT License.
