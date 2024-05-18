@@ -1,4 +1,4 @@
-##!/usr/bin/env node
+#!/usr/bin/env node
 
 const dogecore = require('bitcore-lib-doge')
 const axios = require('axios')
