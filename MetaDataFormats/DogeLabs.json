@@ -1,0 +1,44 @@
+{
+    "body": [
+        {
+            "inscriptionId": "txid+i0",
+            "name": "~~~#1",
+            "collectionSymbol": "~~~",
+            "metadata": {
+                "Background": "~~~",
+                "Base": "~~~",
+                "Mouth": "~~~",
+                "Head": "~~~",
+                "Earrings": "~~~",
+                "Necklace": "~~~",
+                "Eyes": "~~~"
+            }
+        },
+        {
+            "inscriptionId": "txid+i0",
+            "name": "~~~#2",
+            "collectionSymbol": "~~~",
+            "metadata": {
+                "Background": "~~~",
+                "Base": "~~~",
+                "Mouth": "~~~",
+                "Head": "~~~",
+                "Earrings": "~~~",
+                "Necklace": "~~~",
+                "Eyes": "~~~"
+            }
+        },
+        {
+            "inscriptionId": "txid+i0",
+            "name": "~~~#3",
+            "collectionSymbol": "~~~",
+            "metadata": {
+                "Background": "~~~",
+                "Base": "~~~",
+                "Mouth": "~~~",
+                "Head": "~~~",
+                "Earrings": "~~~",
+                "Necklace": "~~~",
+                "Eyes": "~~~"
+            }
+        },
