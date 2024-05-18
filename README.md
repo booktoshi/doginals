@@ -14,8 +14,7 @@ To use this, you'll need to use your console/terminal use Power Shell with Windo
 
 Please head over to [https://nodejs.org/en/download](https://nodejs.org/en/download) and follow the installation instructions.
 
-## Install Dogecoin Core for your Operating System https://dogecoin.com/dogepedia/how-tos/operating-a-node/
-
+## Install Dogecoin Core for your Operating System https://bit.ly/dogecoinnode 
 ## Start your node for at least 1 minute
 
 ## Stop your node 
