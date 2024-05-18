@@ -14,20 +14,44 @@ To use this, you'll need to use your console/terminal use Power Shell with Windo
 
 Please head over to [https://nodejs.org/en/download](https://nodejs.org/en/download) and follow the installation instructions.
 
-## Install Dogecoin Core 
+## Install Dogecoin Core for your Operating System https://dogecoin.com/dogepedia/how-tos/operating-a-node/
 
-Dogecoin Core version v1.14.6
-## ⚠️⚠️⚠️ Important ⚠️⚠️⚠️
-Update you dogecoin.conf file example.
+## Start your node for at least 1 minute
+
+## Stop your node 
+
+```
+dogecoin-cli stop
+```
+
+## cd to your .dogecoin/ hidden folder in your system 
+
+```
+cd ~./.dogecoin/
+```
+
+## Update you dogecoin.conf file example.
+
+```
+nano .env
+```
+
+## Copy and paste below RPC settings
 
 ```
 rpcuser=<username>
 rpcpassword=<password>
 rpcport=22555
-txindex=1
 rpcallowip=127.0.0.1
 server=1
 ```
+
+## Now save the files settings
+
+```
+ctrl + x ~~> Press Y ~~> ENTER
+```
+
 ## Install Doginals
 
 Download the repo by clicking <>code in the uper right of the GitHub and clicking Download ZIP                
