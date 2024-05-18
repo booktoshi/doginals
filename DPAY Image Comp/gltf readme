@@ -1,0 +1,100 @@
+Now, I'll create a Python script that you can use to compress GLTF files using the same method.
+
+Repository Structure
+Copy code
+gltf-compressor/
+├── README.md
+├── requirements.txt
+└── compress_gltf.py
+README.md
+markdown
+Copy code
+# GLTF Compressor
+
+This repository contains a Python script for compressing GLTF files using gzip for lossless compression.
+
+## Requirements
+
+- Python 3.x
+
+## Installation
+
+1. Clone this repository:
+    ```sh
+    git clone https://github.com/yourusername/gltf-compressor.git
+    cd gltf-compressor
+    ```
+
+2. Install the required packages (none for now, but you can add as needed):
+    ```sh
+    pip install -r requirements.txt
+    ```
+
+## Usage
+
+To compress a GLTF file, run the `compress_gltf.py` script:
+
+```sh
+python compress_gltf.py input_gltf output_gltf
+input_gltf: Path to the input GLTF file.
+output_gltf: Path to save the compressed GLTF file.
+Example:
+
+sh
+Copy code
+python compress_gltf.py input.gltf output.gltf.gz
+python
+Copy code
+
+### requirements.txt
+
+Currently, no additional packages are required. You can leave this file empty or add packages as needed.
+
+### compress_gltf.py
+
+```python
+import os
+import gzip
+import shutil
+import sys
+
+def compress_gltf(input_path, output_path):
+    with open(input_path, 'rb') as f_in:
+        with gzip.open(output_path, 'wb') as f_out:
+            shutil.copyfileobj(f_in, f_out)
+    print(f"Compressed file saved to {output_path}")
+
+if __name__ == "__main__":
+    if len(sys.argv) != 3:
+        print("Usage: python compress_gltf.py input_gltf output_gltf")
+        sys.exit(1)
+
+    input_gltf = sys.argv[1]
+    output_gltf = sys.argv[2]
+
+    compress_gltf(input_gltf, output_gltf)
+Instructions
+Create a new repository on GitHub named gltf-compressor.
+
+Clone the repository to your local machine:
+
+sh
+Copy code
+git clone https://github.com/yourusername/gltf-compressor.git
+cd gltf-compressor
+Create the required files (README.md, requirements.txt, compress_gltf.py) and add the provided content.
+
+Install the required packages (if any):
+
+sh
+Copy code
+pip install -r requirements.txt
+Add, commit, and push the changes to GitHub:
+
+sh
+Copy code
+git add .
+git commit -m "Initial commit"
+git push origin main
+Summary
+This repository will contain a script for compressing GLTF files using gzip for lossless compression. The README file provides instructions, the requirements file lists dependencies, and the Python script performs the compression
