@@ -25,6 +25,12 @@
             "dogecoin_address": "DBpLvNcR1Zj8B6dKJp4n3XEAT4FmRxbnJb"
         },
         {
+            "handle": "Z4ch",
+            "at": "@ZachZwei",
+            "note": "NR162-177 CwrcAD342",
+            "dogecoin_address": "DU3rJD4gAXEZkhnhp95idUfGssPD3bXBZa"
+        },
+        {
             "handle": "Unfudable",
             "at": "@unfudable22",
             "note": "NR66-81 CwrcAD336",
@@ -61,12 +67,6 @@
             "dogecoin_address": "DCg7CKvtpjTJBTzzobjA3S6EFCMyE9yoHT"
         },
         {
-            "handle": "Z4ch",
-            "at": "@ZachZwei",
-            "note": "NR162-177 CwrcAD342",
-            "dogecoin_address": "DU3rJD4gAXEZkhnhp95idUfGssPD3bXBZa"
-        },
-        {
             "handle": "Piccolo Namek GoD",
             "at": "@PiccoloNamekGod",
             "note": "NR178-193 CwrcAD343",
@@ -79,22 +79,10 @@
             "dogecoin_address": "DQwBq5mQQpfPhNdGDNBuJS7QSeqQNcBZKT"
         },
         {
-            "handle": "8bit",
-            "at": "@0rdlibrary",
-            "note": "NR242-257",
-            "dogecoin_address": "D5ajNi1dsbW3zehjv1wx9J6dseEABrT7zA"
-        },
-        {
             "handle": "NakedNick",
             "at": "@Nakdnick",
             "note": "forPrezEarlyInRice",
             "dogecoin_address": "DL4a1bDcYqEd9QBNxzNkfHdPtjCiVqJEoG"
-        },
-        {
-            "handle": "Sheena because yall said so",
-            "at": "@BecauseSheena",
-            "note": "FiwbCwrc",
-            "dogecoin_address": "DLaZwEBzLiBeb45yubKFZv1zqRw4yXzVzh"
         },
         {
             "handle": "LC",
@@ -109,28 +97,10 @@
             "dogecoin_address": "D65K65KRjH8EL6grA4RnUvZxosobMVeF4Y"
         },
         {
-            "handle": "BiG SaM Đ",
-            "at": "@Big_Sam_D",
-            "note": "",
-            "dogecoin_address": "DJz9A3Tyir2mDm78SyBRUCSC9KjHs8iXLf"
-        },
-        {
             "handle": "RememberLegend",
             "at": "@BrendanN4dn3rb",
             "note": "",
             "dogecoin_address": "DMhQxUZVrsWNXJ4KbK7Dqf7wD11XRN7feR"
-        },
-        {
-            "handle": "TX Elizabeth",
-            "at": "@ElizabetheBarr",
-            "note": "",
-            "dogecoin_address": "DSpR4SUwFb3aNDtkV62myvHsnHLcChQvg9"
-        },
-        {
-            "handle": "Rocket.eth | Luke Wright",
-            "at": "@lukewrightmain",
-            "note": "bellscoin founder",
-            "dogecoin_address": "DDe26kVwvoCvZ82RFjAcm22SYxdbLZXYfC"
         },
         {
             "handle": "alex",
@@ -143,18 +113,6 @@
             "at": "@mrwowtech",
             "note": "",
             "dogecoin_address": "DMpomaW4Nagr2Lr31G27Nb1XSmQCag23i5"
-        },
-        {
-            "handle": "Luda",
-            "at": "@probablyluda",
-            "note": "",
-            "dogecoin_address": "DCa8JJuneyER6MDQqiSMjVpgL8K2FiBrNu"
-        },
-        {
-            "handle": "Ligma",
-            "at": "@Ligma3271461",
-            "note": "",
-            "dogecoin_address": "DJHgu3mbW8etVcA8HA8h3my4gkv6qGDa3y"
         },
         {
             "handle": "ÐogePay",
@@ -181,34 +139,10 @@
             "dogecoin_address": "DQYtdDYwALk3HhAn6Y5FtoFuiNKBbEexEH"
         },
         {
-            "handle": "Nerd",
-            "at": "@HecterTio",
-            "note": "",
-            "dogecoin_address": "DQTtg8aUBGGVe1X5HR2Anszwp9FfWeB8to"
-        },
-        {
             "handle": "Fulton",
             "at": "@Fulton2c",
             "note": "",
             "dogecoin_address": "DJA7UH9qEyBZhxMjnu5J2k4C3peu2drEc4"
-        },
-        {
-            "handle": "Jusee DOGE",
-            "at": "@JosephMeshack16",
-            "note": "",
-            "dogecoin_address": "DPPaH8oL9sysEHuX5C9pnrCEYeuXqXqvfL"
-        },
-        {
-            "handle": "Jimmy G",
-            "at": "@GiuseffiJames",
-            "note": "",
-            "dogecoin_address": "DGEAFxtKSokzvotiq8fJv3z7VKZkpwjii5"
-        },
-        {
-            "handle": "HUXLEY Vol2",
-            "at": "@howmanyALTS33",
-            "note": "",
-            "dogecoin_address": "DG1E2771DjpkDrXzXugb3ivN87cfcWimSM"
         },
         {
             "handle": "Lumpy",
@@ -246,38 +180,38 @@
         }
     ],
         {
-            "handle": "",
-            "at": "",
+            "handle": "MC Doge",
+            "at": "@MCDoge_1",
             "note": "",
-            "dogecoin_address": ""
+            "dogecoin_address": "DReEJR2PJkqNe7sFhHrBGkroXfqTukdiZ2"
         }
     ],
         {
-            "handle": "",
-            "at": "",
+            "handle": "Hyaipe Goosinal",
+            "at": "@HYAIPE",
             "note": "",
-            "dogecoin_address": ""
+            "dogecoin_address": "DSkc3fbFbue2e2DGbLeaFpSkrRVozaJyqe"
         }
     ],
         {
-            "handle": "",
-            "at": "",
+            "handle": "Son Of A Bitcoin",
+            "at": "@bitcoins_son",
             "note": "",
-            "dogecoin_address": ""
+            "dogecoin_address": "DQaSwXa2ku7dEYyMzsDfdyDPZM7Pby9oEn"
         }
     ],
         {
-            "handle": "",
-            "at": "",
+            "handle": "Hash Warden",
+            "at": "@HashWarden135",
             "note": "",
-            "dogecoin_address": ""
+            "dogecoin_address": "DDhxoDxCGc2tUZXqmAbpx7eo3FGYTtqy8y"
         }
     ],
         {
-            "handle": "",
-            "at": "",
+            "handle": "Hash Magic",
+            "at": "@hashartbtc",
             "note": "",
-            "dogecoin_address": ""
+            "dogecoin_address": "DGtMwwY7o6e6D9mMe2qDTrBftbTmarA3LL"
         }
     ]
 }

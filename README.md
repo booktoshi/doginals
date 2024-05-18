@@ -264,6 +264,8 @@ If you'd like to contribute or donate to our projects, please donate in Dogecoin
 
 ***If You would like to support with Donations, Send all Dogecoin tothe following Contributors:***
 
+**"handle": "ApeZord" "at": "@Heimdall_Bull" "dogecoin_address": "DNmrp12LfsVwy2Q2B5bvpQ1HU7zCAczYob"**
+
 **"handle": "Big Chief" "at": "@MartinSeeger2" "dogecoin_address": "DCHxodkzaKCLjmnG4LP8uH6NKynmntmCNz"**
 
 **"handle": "Great Ape" "at": "@Greatape42069E" "dogecoin_address": "DBpLvNcR1Zj8B6dKJp4n3XEAT4FmRxbnJb"**
@@ -272,6 +274,19 @@ If you'd like to contribute or donate to our projects, please donate in Dogecoin
 
 **"handle": "Booktoshi" "at": "@booktoshi" "dogecoin_address": "D9Ue4zayx5NP7sTSBMM9uwuzqpHv4HnkaN"**
 
+**"handle": "ZachWei" "at": "@ZachZwei" "dogecoin_address": "DU3rJD4gAXEZkhnhp95idUfGssPD3bXBZa"**
+
+**"handle": "Heimdall" "at": "@Heimdall_Bull" "dogecoin_address": "DEpFirPqu8DZUoCT7zEzGZs74JPTCF3ZMJ"**
+
+## Contributors of Scripts and Programs Included:
+  1.  https://github.com/apezord/doginals
+  2.  https://github.com/GreatApe42069/dunes-gui
+  3.  https://github.com/GreatApe42069/image-resize-compress-replace
+  4.  https://github.com/martinseeger2002/dogcoin_ordinal_auto_inscriber
+  5.  https://github.com/martinseeger2002/OW_API_SnapShot
+  6.  https://github.com/H3imdall-dev/recurciveCollectionGen
+  7.  https://github.com/sirduney/dunes-cli
+  8.  https://github.com/zachzwei/bellscriptions
 
 # License
 This project is licensed under the MIT License.
