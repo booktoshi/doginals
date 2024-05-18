@@ -58,7 +58,8 @@ Extract the root folder to your rooot dir.
 
 Using the terimnal install. 
 ```
-cd <path to your dogeinals folder>
+git clone https://github.com/booktoshi/doginals.git
+cd doginals
 npm install
 ``` 
 
