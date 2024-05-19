@@ -16,7 +16,7 @@
   <h3 align="center">ApeZords Doginal Theory</h3>
 
   <p align="center">
-    Follow this read me to start inscribing directly on-chain on the Dogecoin Blockchain!
+    Follow this read me to start inscribing directly on-chain on the Dogecoin Blockchain using a Linux Ubunutu 22.04!
     <br />
     <a href="https://x.com/booktoshi"><strong>~by Booktoshi</strong></a>
     <br />
@@ -51,7 +51,7 @@ The Node Runners carry on the tradition and provenance that ApeZord has set-fort
 
 
 <!-- GETTING STARTED -->
-## Getting Started
+## Getting Started on Ubuntu 22.04 VPS/Linux System 
 
 This is an example of how you may give instructions on setting up your project locally.
 To get a local copy up and running follow these simple example steps.
@@ -59,6 +59,8 @@ To get a local copy up and running follow these simple example steps.
 ### Prerequisites
 
 The programs and dependencies below are needed to run most Doginal protocols found within this repository.
+
+You must have downloaded and installed a Dogecoin Node and have set up your dogecoin.conf file properly before performing the steps below. You can follow this link in order to learn <a href="https://bit.ly/dogecoinnode"><strong>how to install and operate a Dogecoin Node on a Ubunutu 22.04 using a VPS/Linux System.</strong></a>
 
 1. Install Node.js through NVM Copy the curl command below to audit the download of Node.js
   ```
@@ -244,23 +246,25 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 
 ### I'm getting ECONNREFUSED errors when minting
 
-There's a problem with the node connection. Your `dogecoin.conf` file should look something like:
-    ```sh
+There's a problem with the node connection. Your dogecoin.conf file should look something like:    
+    
     rpcuser=ape
     rpcpassword=zord
     rpcport=22555
     server=1
-    ```
+    
 
-Make sure `port` is not set to the same number as `rpcport`. Also make sure `rpcauth` is not set.
+Make sure "port" is not set to the same number as "rpcport". Also make sure "rpcauth" is not set.
 
-Your `.env file` should look like:
-    ```sh
-    NODE_RPC_URL=http://127.0.0.1:22555
-    NODE_RPC_USER=ape
-    NODE_RPC_PASS=zord
-    TESTNET=false
-    ```
+Your .env file should look like:
+  
+   ```sh
+   NODE_RPC_URL=http://127.0.0.1:22555
+   NODE_RPC_USER=<username>
+   NODE_RPC_PASS=<password>
+   TESTNET=false
+   FEE_PER_KB=30000000
+   ```
 
 ### I'm getting "insufficient priority" errors when minting
 
@@ -312,7 +316,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@your_twitter](https://x.com/booktoshi) - xahnobi@gmail.com 
+Your Name - [@booktoshi](https://x.com/booktoshi) - xahnobi@gmail.com 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
