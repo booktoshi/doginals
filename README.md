@@ -8,10 +8,12 @@ Use this wallet for inscribing only! Always send your inscriptions from this wal
 
 ## Prerequisites
 
+```
 -Computer/Laptop/VPS - we will be using a command terminal for this install.
 -Node.js
 -NPM
 -Doginal.js
+```
 
 ### Install NodeJS
 
