@@ -307,7 +307,7 @@ Don't forget to give the project a star! Thanks again!
 <!-- LICENSE -->
 ## License
 
-Distributed under the MIT License. See `LICENSE.txt` for more information.
+Distributed under the Creative Commons Zero v1.0 Universal License. See `LICENSE.txt` for more information.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -360,7 +360,7 @@ Email: xahnobi@gmail.com
 [issues-shield]: https://img.shields.io/github/issues/booktoshi/doginals.svg?style=for-the-badge
 [issues-url]: https://github.com/booktoshi/doginals/issues
 [license-shield]: https://img.shields.io/github/license/booktoshi/doginals.svg?style=for-the-badge
-[license-url]: https://github.com/booktoshi/doginals/blob/master/LICENSE.txt
+[license-url]: https://github.com/booktoshi/doginals/blob/main/LICENSE
 [product-screenshot]: images/logo.png
 [Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
 [Next-url]: https://nextjs.org/
