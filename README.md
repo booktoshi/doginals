@@ -18,19 +18,18 @@
   <p align="center">
     Follow this read me to start inscribing directly on-chain on the Dogecoin Blockchain!
     <br />
-    <a href="https://x.com/booktoshi"><strong>The Node Runners</strong></a>
+    <a href="https://x.com/booktoshi"><strong>~by Booktoshi</strong></a>
     <br />
     <br />
     <a href="https://x.com/thenoderunners">Node Runners</a>
     ·
-    <a href="https://discord.gg/z7DBSZnuWE">NR Discord</a>
+    <a href="https://discord.gg/z7DBSZnuWE">The Node Runner Repo/VC Discord</a>
     ·
-    <a href="https://x.com/apezord">ApeZord</a>
+    <a href="https://github.com/apezord">ApeZord</a>
   </p>
 </div>
 
 <!-- DOGINALS -->
-## Doginal Theory 
 
 [![Product Name Screen Shot][product-screenshot]](https://x.com/apezord)
 
@@ -61,8 +60,7 @@ To get a local copy up and running follow these simple example steps.
 
 The programs and dependencies below are needed to run most Doginal protocols found within this repository.
 
-* Node.js through NVM Install
-1. Copy the curl command below to audit the download of Node.js
+1. Install Node.js through NVM Copy the curl command below to audit the download of Node.js
   ```
   curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh
   ```
@@ -270,7 +268,19 @@ The miner fee is too low. You can increase it up by putting FEE_PER_KB=30000000 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- INCLUDED PROGRAMS -->
+## Included Node Runner Programs & Scripts
 
+The programs listed below are stable programs and scripts included within this repository created and designed by The Node Runners. The programs and scripts included within this repository will be regularly updated as the new programs and scripts are tested and proven to work. There will be guides coming soon for each and every tool made.
+
+- APE DUNES GUI
+- APE Image Converter
+- BC Auto Scripts
+- BC Snapshot
+- BCxHeim Recurse
+- BP MetaData Merger
+- BP TelegramBot
+- SirDuney DUNES
 
 <!-- CONTRIBUTING -->
 ## Contributing
