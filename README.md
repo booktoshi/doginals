@@ -1,74 +1,37 @@
 # Doginals
 
-A minter and protocol for inscriptions on Dogecoin. 
+A minter and protocol for inscriptions on Dogecoin developed by ApeZord.
 
 ## ⚠️⚠️⚠️ Important ⚠️⚠️⚠️
 
-Use this wallet for inscribing only! Always inscribe from this wallet to a different address, e.g. one you created with Ordinals Wallet. This wallet is not meant for storing funds or inscriptions.
+Use this wallet for inscribing only! Always send your inscriptions from this wallet to a different address, e.g. one you created with Ordinals Wallet. This wallet is not meant for storing funds or inscriptions.
 
 ## Prerequisites
 
-To use this, you'll need to use your console/terminal use Power Shell with Windows, install Node.js on your computer.
+-Computer/Laptop/VPS - we will be using a command terminal for this install.
+-Node.js
+-NPM
+-Doginal.js
 
 ### Install NodeJS
 
 Please head over to https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-22-04 and follow the installation instructions for Node.js
 
-## Install Dogecoin Core for your Operating System https://bit.ly/dogecoinnode 
-## Start your node for at least 1 minute
+## Install Dogecoin Core for your Operating System https://bit.ly/dogecoinnode - Once your Dogecoin Node has synced with your Blocks & Headers having matching numbers, come back here to finish your installation.
 
-## Stop your node 
-
-```
-dogecoin-cli stop
-```
-
-## cd to your .dogecoin/ hidden folder in your system 
-
-```
-cd ~./.dogecoin/
-```
-
-## Update your dogecoin.conf file example.
-
-```
-nano dogecoin.conf
-```
-
-## Copy and paste below RPC settings
-
-```
-rpcuser=<username>
-rpcpassword=<password>
-rpcport=22555
-rpcallowip=127.0.0.1
-server=1
-```
-
-## Now save the files settings
-
-```
-ctrl + x ~~> Press Y ~~> ENTER
-```
-
-## Install Doginals
-
-Download the repo by clicking <>code in the uper right of the GitHub and clicking Download ZIP                
-Extract the root folder to your rooot dir.
-
-Using the terimnal install.
+## Open your terminal and run the command below to download the Doginals folder to your computer/server.
 
 ```
 git clone https://github.com/booktoshi/doginals.git
 ```
 
-## Go into the Doginal Director
+## Go into the Doginals folder
 
 ```
 cd doginals
 ```
 
-## Now run command below to install all the needed packages for the Doginals script to work
+## Run command below to install all the needed packages for the Doginals script to work.
 
 ```
 npm install
@@ -76,13 +39,13 @@ npm install
 
 After all dependencies are solved, you can configure the environment:
 
-### Configure environment and run the following command to make and save your .env file
+### Create and save your .env environment file.
 
 ```
 nano .env
 ```
 
-## Now copy and paste the below .env format 
+## Copy and paste the below .env format.
 
 ```
 NODE_RPC_URL=http://127.0.0.1:22555
@@ -92,19 +55,19 @@ TESTNET=false
 FEE_PER_KB=30000000
 ```
 
-## Now save the files settings
+## Save the file settings.
 
 ```
 ctrl + x ~~> Press Y ~~> ENTER
 ```
 
-### Create a new wallet from terminal
+### Create a new wallet from the terminal.
 
 ```
 node . wallet new
 ```
 
-## Now retrieve your private key from your wallet file. DO NOT CHANGE ANY INFORMATION. YOU ARE ONLY COPYING YOUR PRIVATE KEY AND WALLET ADDRESS.
+## Retrieve your private key from your wallet file. DO NOT CHANGE ANY INFORMATION. YOU ARE ONLY COPYING YOUR PRIVATE KEY AND WALLET ADDRESS.
 
 ```
 nano .wallet.json
@@ -116,7 +79,7 @@ nano .wallet.json
 dogecoin-cli importprivkey <your_private_key> <optional_label> false
 ```
 
-## Now send $DOGE to your new Doginal Inscription wallet from another wallet, your CEX or by swapping another crypto into $DOGE https://t.me/WEN_SWAP_BOT 
+## Send $DOGE to your new Doginal Inscription wallet from another wallet, your CEX or by swapping another crypto into $DOGE https://t.me/WEN_SWAP_BOT 
 
 ## Once your $DOGE is sent, give it about 5 minutes for your UTXO's to settle. You can check this by importing your Inscription wallet into DogeLabs Chrome Extension, going to doge.ordinalswallet.com, connecting your wallet on the wallet view page, and making sure that your "Incoming" UTXO's are no longer orange and you have a full balance.
 
@@ -126,19 +89,7 @@ dogecoin-cli importprivkey <your_private_key> <optional_label> false
 node . wallet sync
 ```
 
-## For more advance users, If you are minting a lot, you can split up your UTXOs:
-
-```
-node . wallet split <count>
-```
-
-## When you are done minting, send the funds back:
-
-```
-node . wallet send <address> <optional amount>
-```
-
-## Minting
+## Minting Files & Pictures/Videos
 
 ## From file:
 
@@ -149,22 +100,34 @@ node . mint <address> <path>
 Examples:
 
 ```
-node . mint DSV12KPb8m5b6YtfmqY89K6YqvdVwMYDPn dog.jpeg
+node . mint D9Ue4zayx5NP7sTSBMM9uwuzqpHv4HnkaN dog.jpeg
 ```
 
 ## From data:
 
 ```
-node . mint <address> <content type> <hex data>
+node . mint <address> <content type> <base64>
 ```
 
 Examples:
 
 ```
-node . mint DSV12KPb8m5b6YtfmqY89K6YqvdVwMYDPn "text/plain;charset=utf-8" 576f6f6621 
+node . mint D9Ue4zayx5NP7sTSBMM9uwuzqpHv4HnkaN "text/plain;charset=utf-8" 576f6f6621 
 ```
 
-## DRC-20
+## Deploy DRC-20
+
+```
+node . drc-20 deploy <address> <ticker> <max token supply> <max allowed mint limit>
+``` 
+
+Examples: 
+
+```
+node . drc-20 deploy D9Ue4zayx5NP7sTSBMM9uwuzqpHv4HnkaN depl 21000000 100 
+```
+
+## Minting DRC-20
 
 ```
 node . drc-20 mint <address> <ticker> <amount>
@@ -173,7 +136,7 @@ node . drc-20 mint <address> <ticker> <amount>
 Examples: 
 
 ```
-node . drc-20 mint D9pqzxiiUke5eodEzMmxZAxpFcbvwuM4Hg dogi 1000
+node . drc-20 mint D9Ue4zayx5NP7sTSBMM9uwuzqpHv4HnkaN dogi 1000
 ```
 
 ## Viewing
@@ -293,6 +256,8 @@ If you'd like to contribute or donate to our projects, please donate in Dogecoin
 **"handle": "ZachWei" "at": "@ZachZwei" "dogecoin_address": "DU3rJD4gAXEZkhnhp95idUfGssPD3bXBZa"**
 
 **"handle": "Heimdall" "at": "@Heimdall_Bull" "dogecoin_address": "DEpFirPqu8DZUoCT7zEzGZs74JPTCF3ZMJ"**
+
+**"handle": "Danny" "at": "@Dogepay_DRC20" "dogecoin_address": ""**
 
 ## Contributors of Scripts and Programs Included:
   1.  https://github.com/apezord/doginals
