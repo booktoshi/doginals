@@ -29,7 +29,7 @@ dogecoin-cli stop
 cd ~./.dogecoin/
 ```
 
-## Update you dogecoin.conf file example.
+## Update your dogecoin.conf file example.
 
 ```
 nano dogecoin.conf
@@ -56,18 +56,33 @@ ctrl + x ~~> Press Y ~~> ENTER
 Download the repo by clicking <>code in the uper right of the GitHub and clicking Download ZIP                
 Extract the root folder to your rooot dir.
 
-Using the terimnal install. 
+Using the terimnal install.
+
 ```
 git clone https://github.com/booktoshi/doginals.git
+```
+
+## Go into the Doginal Director
+
+```
 cd doginals
+```
+
+## Now run command below to install all the needed packages for the Doginals script to work
+
+```
 npm install
 ``` 
 
 After all dependencies are solved, you can configure the environment:
 
-### Configure environment
+### Configure environment and run the following command to make and save your .env file
 
-`.env` and add your node information:
+```
+nano .env
+```
+
+## Now copy and paste the below .env format 
 
 ```
 NODE_RPC_URL=http://127.0.0.1:22555
@@ -77,46 +92,47 @@ TESTNET=false
 FEE_PER_KB=30000000
 ```
 
-You can get the current fee per kb from [here](https://mempool.jhoenicke.de/#DOGE,8h,weight).
+## Now save the files settings
 
-### Using CLI
-
-Import the private key to core ~/dogecoin-1.14.7/bin/ directory and you want to run the dogecoin-cli
-run
-./dogecoin-cli 
 ```
-importprivkey <your_private_key> <optional_label> false
+ctrl + x ~~> Press Y ~~> ENTER
 ```
-### Using QT
-Settings>Options Wallets Enable coin controll.
 
-Create a new wallet from shell.
+### Create a new wallet from terminal
+
 ```
 node . wallet new
 ```
-After creating your doginals wallet copy your private key from your doginals_folder/.wallet.
 
-File>Import Private Key
+## Now retrieve your private key from your wallet file. DO NOT CHANGE ANY INFORMATION. YOU ARE ONLY COPYING YOUR PRIVATE KEY AND WALLET ADDRESS.
 
-Paste private key and name wallet.
+```
+nano .wallet.json
+```
 
-Fund wallet.
+## In your terminal run the following command to import your private key into your Dogecoin Node
 
-## Funding
+```
+dogecoin-cli importprivkey <your_private_key> <optional_label> false
+```
 
-Then send DOGE to the address displayed. Once sent, sync your wallet:
+## Now send $DOGE to your new Doginal Inscription wallet from another wallet, your CEX or by swapping another crypto into $DOGE https://t.me/WEN_SWAP_BOT 
+
+## Once your $DOGE is sent, give it about 5 minutes for your UTXO's to settle. You can check this by importing your Inscription wallet into DogeLabs Chrome Extension, going to doge.ordinalswallet.com, connecting your wallet on the wallet view page, and making sure that your "Incoming" UTXO's are no longer orange and you have a full balance.
+
+## To check your Doginal Inscription Wallet Balance and to also Sync your wallet to the Dogecoin Blockchain, run the command below.
 
 ```
 node . wallet sync
 ```
 
-If you are minting a lot, you can split up your UTXOs:
+## For more advance users, If you are minting a lot, you can split up your UTXOs:
 
 ```
 node . wallet split <count>
 ```
 
-When you are done minting, send the funds back:
+## When you are done minting, send the funds back:
 
 ```
 node . wallet send <address> <optional amount>
@@ -124,16 +140,10 @@ node . wallet send <address> <optional amount>
 
 ## Minting
 
-From file:
+## From file:
 
 ```
 node . mint <address> <path>
-```
-
-From data:
-
-```
-node . mint <address> <content type> <hex data>
 ```
 
 Examples:
@@ -142,11 +152,17 @@ Examples:
 node . mint DSV12KPb8m5b6YtfmqY89K6YqvdVwMYDPn dog.jpeg
 ```
 
+## From data:
+
+```
+node . mint <address> <content type> <hex data>
+```
+
+Examples:
+
 ```
 node . mint DSV12KPb8m5b6YtfmqY89K6YqvdVwMYDPn "text/plain;charset=utf-8" 576f6f6621 
 ```
-
-**Note**: Please use a fresh wallet to mint to with nothing else in it until proper wallet for doginals support comes. You can get a paper wallet [here](https://www.fujicoin.org/wallet_generator?currency=Dogecoin).
 
 ## DRC-20
 
