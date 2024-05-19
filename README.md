@@ -12,7 +12,7 @@ To use this, you'll need to use your console/terminal use Power Shell with Windo
 
 ### Install NodeJS
 
-Please head over to [https://nodejs.org/en/download](https://nodejs.org/en/download) and follow the installation instructions.
+Please head over to https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-22-04 and follow the installation instructions for Node.js
 
 ## Install Dogecoin Core for your Operating System https://bit.ly/dogecoinnode 
 ## Start your node for at least 1 minute
