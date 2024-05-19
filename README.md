@@ -316,7 +316,9 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@booktoshi](https://x.com/booktoshi) - xahnobi@gmail.com 
+X Account: [@booktoshi](https://x.com/booktoshi) 
+
+Email: xahnobi@gmail.com 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
