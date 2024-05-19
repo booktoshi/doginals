@@ -17,9 +17,9 @@ Use this wallet for inscribing only! Always send your inscriptions from this wal
 
 ### Install NodeJS
 
-Please head over to https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-22-04 and follow the installation instructions for Node.js
+Please head over to https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-22-04 and follow the installation instructions for Node.js or find the necessary steps for your particular Operating System on https://nodejs.org/en/download/package-manager/current
 
-## Install Dogecoin Core for your Operating System https://bit.ly/dogecoinnode - Once your Dogecoin Node has synced with your Blocks & Headers having matching numbers, come back here to finish your installation.
+## Install Dogecoin Core for your Operating System https://bit.ly/dogecoinnode - Once your Dogecoin Node has synced, with your Blocks & Headers having matching numbers, come back here to finish your installation.
 
 ## Open your terminal and run the command below to download the Doginals folder to your computer/server.
 
