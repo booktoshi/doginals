@@ -90,9 +90,10 @@ _Now we will download the Doginal repository to our system and install the ApeZo
   ```sh
   git clone https://github.com/booktoshi/doginals.git
   ```
-2. Go into doginals folder
+2. Go into doginals folder and install packages
   ```sh
   cd doginals
+  npm install
   ```
 3. Create and save your .env environment file.
    ```sh
