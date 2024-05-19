@@ -4,7 +4,6 @@
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
 
 <!-- PROJECT LOGO -->
 <br />
@@ -359,8 +358,6 @@ Email: xahnobi@gmail.com
 [stars-url]: https://github.com/booktoshi/doginals/stargazers
 [issues-shield]: https://img.shields.io/github/issues/booktoshi/doginals.svg?style=for-the-badge
 [issues-url]: https://github.com/booktoshi/doginals/issues
-[license-shield]: https://img.shields.io/github/license/booktoshi/doginals.svg?style=for-the-badge
-[license-url]: https://github.com/booktoshi/doginals/blob/main/LICENSE
 [product-screenshot]: images/logo.png
 [Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
 [Next-url]: https://nextjs.org/
