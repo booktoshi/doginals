@@ -83,7 +83,7 @@ async function doge20Deploy() {
   await mint(argAddress, "text/plain;charset=utf-8", encodedDoge20Tx);
 }
 
-async function doge20Transfer(op = "transfer") {
+async function doge20Transfer() {
   const argAddress = process.argv[4]
   const argTicker = process.argv[5]
   const argAmount = process.argv[6]
@@ -91,7 +91,7 @@ async function doge20Transfer(op = "transfer") {
 
   const doge20Tx = {
     p: "drc-20",
-    op,
+    op: "transfer",
     tick: `${argTicker.toLowerCase()}`,
     amt: `${argAmount}`
   };
