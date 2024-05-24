@@ -212,6 +212,18 @@
             "at": "@hashartbtc",
             "note": "",
             "dogecoin_address": "DGtMwwY7o6e6D9mMe2qDTrBftbTmarA3LL"
+        },
+        {
+            "handle": "MarTech",
+            "at": "@martechnetworks",
+            "note": "",
+            "dogecoin_address": "DJcMViEbTVmBf4afDngG5tK7doTFvNaS9c"
+        },
+        {
+            "handle": "Tony DoodleGenics",
+            "at": "@daddygenics",
+            "note": "",
+            "dogecoin_address": "DFB7X7YCY9TXC4VvQW6wXZwzKDHJJw5fZR"
         }
     ]
 }
