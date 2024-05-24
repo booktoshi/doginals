@@ -9,7 +9,7 @@
         {
             "handle": "Book",
             "at": "@booktoshi",
-            "amount": "9",
+            "amount": "21",
             "dogecoin_address": "D9Ue4zayx5NP7sTSBMM9uwuzqpHv4HnkaN"
         },
         {
@@ -295,6 +295,48 @@
             "at": "@briggysmallss",
             "amount": "1",
             "dogecoin_address": "DKg3fTRfoMNed9mahJiQpAPMTfvYH6Nzr4"
+        },
+        {
+            "handle": "| True |",
+            "at": "@True6204",
+            "amount": "1",
+            "dogecoin_address": "DSSmtkgJpASxMonX7iRGTtCpbkgWp8NaYQ"
+        },
+        {
+            "handle": "Druid",
+            "at": "@W3Druid",
+            "amount": "1",
+            "dogecoin_address": "DCdLB2yeqCAnMYx59RR5xkHQTRsArdNbGo"
+        },
+        {
+            "handle": "Paul",
+            "at": "@PaulOBTC",
+            "amount": "3",
+            "dogecoin_address": "DJao3nHAWjvQqjEtfU8xtLP8EnnDD4Xwvg"
+        },
+        {
+            "handle": "BG",
+            "at": "@BunnyGirlBags",
+            "amount": "3",
+            "dogecoin_address": "DTvY9HxBXaCsMHLGDgMjzZKp2epU6t8qED"
+        },
+        {
+            "handle": "Solid",
+            "at": "@solident209",
+            "amount": "2",
+            "dogecoin_address": "DC3oqF41b2oTKg8xSQduGLef1ocvBHmMQc"
+        },
+        {
+            "handle": "Dogi",
+            "at": "@Dogiknows",
+            "amount": "3",
+            "dogecoin_address": "DDPYRLkRMbYdEmEn2W9jpguURaYEjHczW9"
+        },
+        {
+            "handle": "DBIT",
+            "at": "@DBITDRC20",
+            "amount": "3",
+            "dogecoin_address": "DCLPQsiZBzKFW6ZD1WweUXLv58FUSH7sUs"
         }
     ]
 }
