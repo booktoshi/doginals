@@ -199,6 +199,102 @@
             "at": "@MetaMan_X",
             "amount": "3",
             "dogecoin_address": "DQqRLDprU15F4n2ZYEpXHK8abBosDN4yhc"
+        },
+        {
+            "handle": "OG D.R.X.",
+            "at": "@DigitalRoninX",
+            "amount": "3",
+            "dogecoin_address": "DL1Ff5cfRAAjaUwxesm5fwtAKbDqBM6woU"
+        },
+        {
+            "handle": "Tank",
+            "at": "@strongchiro83",
+            "amount": "1",
+            "dogecoin_address": "DCAdBPAbxiB6cKEsntzYSukikZpe4BL4ff"
+        },
+        {
+            "handle": "Dovo",
+            "at": "@DovoZuru",
+            "amount": "1",
+            "dogecoin_address": "D5EqdVuN259dSU1MbuPckXCVtMAgr73i2e"
+        },
+        {
+            "handle": "Victory",
+            "at": "@metuvictory6",
+            "amount": "1",
+            "dogecoin_address": "DQYQcmhatbNMXbaCTLNFjyvantyk3qnq2v"
+        },
+        {
+            "handle": "Chari",
+            "at": "@SamuelMalgwi2",
+            "amount": "1",
+            "dogecoin_address": "D9SGCpezKbW4tmseiVLx9t6Nhpy82p1TJo"
+        },
+        {
+            "handle": "CryptEnv",
+            "at": "@CryptEnv",
+            "amount": "1",
+            "dogecoin_address": "DRqCQj6W5o323XXkf6YasBDpXCJj9hcW9g"
+        },
+        {
+            "handle": "Kiwi",
+            "at": "@kiwisike25",
+            "amount": "1",
+            "dogecoin_address": "D7LbA3cwZsqYhQtLghWSbhjoFRctp9Am2X"
+        },
+        {
+            "handle": "iDog",
+            "at": "@iDoginals",
+            "amount": "1",
+            "dogecoin_address": "DK9YgvaTtgGGRGd53Vk3pCgaJ4NyMRSEfH"
+        },
+        {
+            "handle": "DoginalDRC",
+            "at": "@doginalsDRC",
+            "amount": "1",
+            "dogecoin_address": "DBsJARD3jD9Yoqz7jWy69tUR1voXMaY9Bm"
+        },
+        {
+            "handle": "L3v3Lz",
+            "at": "@fr3shempire",
+            "amount": "1",
+            "dogecoin_address": "DUEhajdQGcsABgpjKBFzdJHJMbW3X2Lyx4"
+        },
+        {
+            "handle": "AkinWorldwide",
+            "at": "@Akinwizzy10",
+            "amount": "1",
+            "dogecoin_address": "DFtawPdNL5wGdoGuNeaqLpqANiyiUgmMik"
+        },
+        {
+            "handle": "Eminent",
+            "at": "@xEMINENTx",
+            "amount": "1",
+            "dogecoin_address": "DFKNx2etFD1k4WKWwDDaKz7XHmdYRrWVAX"
+        },
+        {
+            "handle": "APE",
+            "at": "@Im_Just_Ape",
+            "amount": "1",
+            "dogecoin_address": "DTi88UV6edCchyri7aqeAoRHCmnY6Yq9S3"
+        },
+        {
+            "handle": "DeebDRC20",
+            "at": "@DEEB_DRC20",
+            "amount": "1",
+            "dogecoin_address": "DKLwp7MM7HLYnEh85QNaRtcB4SGsXKZM5r"
+        },
+        {
+            "handle": "Yola",
+            "at": "@YolaVerse",
+            "amount": "1",
+            "dogecoin_address": "DKqsFaEMQ96bhfxKLJqogunPwzeXWdGMT6"
+        },
+        {
+            "handle": "Tylordius",
+            "at": "@briggysmallss",
+            "amount": "1",
+            "dogecoin_address": "DKg3fTRfoMNed9mahJiQpAPMTfvYH6Nzr4"
         }
     ]
 }
