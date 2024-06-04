@@ -337,6 +337,12 @@
             "at": "@DBITDRC20",
             "amount": "3",
             "dogecoin_address": "DCLPQsiZBzKFW6ZD1WweUXLv58FUSH7sUs"
+        },
+        {
+            "handle": "Grandad",
+            "at": "@DoginalsForever",
+            "amount": "1",
+            "dogecoin_address": "DCLPQsiZBzKFW6ZD1WweUXLv58FUSH7sUs"
         }
     ]
 }
