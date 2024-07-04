@@ -95,8 +95,8 @@ _Now we will download the Doginal repository to our system and install the ApeZo
 5. Copy and paste the below .env format.
    ```
    NODE_RPC_URL=http://127.0.0.1:22555
-   NODE_RPC_USER=<username>
-   NODE_RPC_PASS=<password>
+   NODE_RPC_USER=your
+   NODE_RPC_PASS=pass
    TESTNET=false
    FEE_PER_KB=30000000
    ```
@@ -249,8 +249,8 @@ Your .env file should look like:
   
    ```sh
    NODE_RPC_URL=http://127.0.0.1:22555
-   NODE_RPC_USER=<username>
-   NODE_RPC_PASS=<password>
+   NODE_RPC_USER=your
+   NODE_RPC_PASS=pass
    TESTNET=false
    FEE_PER_KB=30000000
    ```
@@ -260,47 +260,6 @@ Your .env file should look like:
 The miner fee is too low. You can increase it up by putting FEE_PER_KB=30000000 in your .env file or just wait it out. The default is 210000000 but spikes up when demand is high.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- INCLUDED PROGRAMS -->
-## Included Node Runner Programs & Scripts
-
-The programs listed below are stable programs and scripts included within this repository created and designed by The Node Runners. The programs and scripts included within this repository will be regularly updated as the new programs and scripts are tested and proven to work. There will be guides coming soon for each and every tool made.
-
-- APE DUNES GUI
-- APE Image Converter
-- BC Auto Scripts
-- BC Snapshot
-- BCxHeim Recurse
-- BP MetaData Merger
-- BP TelegramBot
-- SirDuney DUNES
-
-<!-- CONTRIBUTING -->
-## Contributing
-
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-Don't forget to give the project a star! Thanks again!
-
-1. Fork the Project
-2. Create your Own Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- LICENSE -->
-## License
-
-Distributed under the Creative Commons Zero v1.0 Universal License. See `LICENSE.txt` for more information.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 <!-- CONTACT -->
 ## Contact
@@ -322,17 +281,7 @@ Email: xahnobi@gmail.com
 
 2. ApeZord - X: <a href="https://x.com/apezord"><strong>@apezord</strong></a> - Wallet: DNmrp12LfsVwy2Q2B5bvpQ1HU7zCAczYob
 
-3. BillyBitcoins - X: <a href="https://x.com/billybitcoins"><strong>@BillyBitcoins</strong></a> - Wallet: DQAWs4LQKY3zVmorsLHDUCV7LE5ox6rho6
-
-4. Big Chief - X: <a href="https://x.com/martinseeger2"><strong>@MartinSeeger2</strong></a> - Wallet: DCHxodkzaKCLjmnG4LP8uH6NKynmntmCNz
-
-5. Great Ape - X: <a href="https://x.com/Greatape42069E"><strong>@Greatape42069E</strong></a> - Wallet:  DBpLvNcR1Zj8B6dKJp4n3XEAT4FmRxbnJb
-
-6. ZachWei - X: <a href="https://x.com/ZachZwei"><strong>@ZachZwei</strong></a> - Wallet: DU3rJD4gAXEZkhnhp95idUfGssPD3bXBZa
-
-7. Heimdall - X: <a href="https://x.com/Heimdall_Bull"><strong>@Heimdall_Bull</strong></a> - Wallet: DEpFirPqu8DZUoCT7zEzGZs74JPTCF3ZMJ
-
-8. Danny - X: <a href="https://x.com/Dogepay_DRC20"><strong>@Dogepay_DRC20</strong></a> - Wallet: 
+3. Great Ape - X: <a href="https://x.com/Greatape42069E"><strong>@Greatape42069E</strong></a> - Wallet:  DBpLvNcR1Zj8B6dKJp4n3XEAT4FmRxbnJb
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
