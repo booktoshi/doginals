@@ -8,9 +8,6 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://drive.google.com/file/d/1L4_uvuf5mVFcC37eR3Vud-JPbPkb9u4K/view?usp=drive_link">
-    <img src="images/logo1.png" alt="Logo" width="80" height="80">
-  </a>
 
   <h3 align="center">ApeZords Doginal Theory</h3>
 
