@@ -16,18 +16,10 @@
     <br />
     <a href="https://x.com/booktoshi"><strong>~by Booktoshi</strong></a>
     <br />
-    <br />
-    <a href="https://x.com/thenoderunners">Node Runners</a>
-    ·
-    <a href="https://discord.gg/z7DBSZnuWE">The Node Runner Repo/VC Discord</a>
-    ·
-    <a href="https://github.com/apezord">ApeZord</a>
   </p>
 </div>
 
 <!-- DOGINALS -->
-
-[![Product Name Screen Shot][product-screenshot]](https://x.com/apezord)
 
 The history of Doginals on the Dogecoin blockchain is an interesting journey that began in 2023. The concept of Doginals, also known as DRC-20 tokens, was introduced to add a fresh dimension to Dogecoin. It allowed for the inscription of unique data on Dogecoin units known as Shibs, effectively creating collectible digital assets. These assets are similar to NFTs but are integrated directly into Dogecoin's blockchain, leveraging its security and ease of use.
 
