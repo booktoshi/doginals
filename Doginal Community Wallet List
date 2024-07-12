@@ -343,6 +343,12 @@
             "at": "@DoginalsForever",
             "amount": "1",
             "dogecoin_address": "DCLPQsiZBzKFW6ZD1WweUXLv58FUSH7sUs"
+        },
+        {
+            "handle": "Foxy",
+            "at": "@FoxyFitFemme",
+            "amount": "1",
+            "dogecoin_address": "DUKmxTpJQUGn6hKyDHGitRPhavx1rmEJ8s"
         }
     ]
 }
